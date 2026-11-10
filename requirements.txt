@@ -1,0 +1,10 @@
+langgraph>=0.3
+langchain-core>=0.3
+langchain-openai>=0.3
+langchain-anthropic>=0.3        # opcional (LLM_PROVIDER=anthropic)
+langchain-google-genai>=2.0     # opcional (LLM_PROVIDER=gemini)
+langchain-tavily>=0.1           # opcional (búsqueda web real)
+pydantic>=2
+python-dotenv>=1.0
+pytest>=8                       # solo para tests
+ipykernel>=6                    # solo para el notebook
